@@ -56,8 +56,8 @@ const router = createRouter({
 });
 
 router.afterEach((to) => {
-  const title = to.meta.pageTitle || 'My App';
-  document.title = `${title} | Royal Diadem Group`;
+  const title = to.meta.pageTitle || 'Job Portal';
+  document.title = `${title} | Bride App`;
 });
 
 export default router;
